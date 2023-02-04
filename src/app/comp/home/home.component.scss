@@ -1,0 +1,40 @@
+
+.main-container {
+  .background {
+    z-index: -5;
+    img {
+      width: 100vw;
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      opacity: 52%;
+    }
+  }
+  .logo-container{
+    img{
+      margin: 3rem 0 0 5.5rem;
+      top: 2.5rem;
+      left: 5rem;
+    }
+
+  }
+  hr{
+    margin: 2rem 3rem 0 5rem;
+    color: #1a1a1a;
+  }
+
+  button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20vw;
+    background-color: #1A1A1A;
+    color: white;
+    border-radius: 1rem;
+    font-size: 20px;
+    height: 5rem;
+    text-transform: capitalize;
+  }
+}
